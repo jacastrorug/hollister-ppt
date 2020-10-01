@@ -2,12 +2,12 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import Layout from "../components/layout";
 import "../assets/scss/stylebasiclevel.scss";
-import "../assets/scss/03.scss";
+import "../assets/scss/04.scss";
 import FooterNavigation from "../components/FooterNavigation";
-import leftImage from "../assets/images/03/DP04_foto.jpg";
-import icon01 from "../assets/images/03/ico_01.png";
-import icon02 from "../assets/images/03/ico_02.png";
-import iconPlus from "../assets/images/03/ico+.png";
+import leftImage from "../assets/images/04/DP04_foto.jpg";
+import icon01 from "../assets/images/04/ico_01.png";
+import icon02 from "../assets/images/04/ico_02.png";
+import iconPlus from "../assets/images/04/ico+.png";
 
 const SabiasQue = (props) => {
   return (
@@ -76,7 +76,7 @@ const SabiasQue = (props) => {
           </div>
         </div>
       </div>
-      <FooterNavigation left={"/dos"} right={"/collaborators"} />
+      <FooterNavigation left={"/cambio-uno-mismo"} right={"/porque-hollister"} />
     </Layout>
   );
 };
