@@ -40,7 +40,7 @@ const Collaborators = (props) => (
         </div>
       </div>
     </div>
-    <FooterNavigation left={"/sabias-que"} right={"/levels"} />
+    <FooterNavigation left={"/porque-hollister"} right={"/levels"} />
   </Layout>
 );
 

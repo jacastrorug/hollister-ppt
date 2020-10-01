@@ -27,16 +27,16 @@ const PorqueHollister = (props) => {
               <ul>
                 <li>
                   <h3 className="description">
-                    <strong>Nuestra misión: </strong>hacer la vida del paciente más digna y
-                    gratificante
+                    <strong>Nuestra misión: </strong>hacer la vida del paciente
+                    más digna y gratificante
                   </h3>
                 </li>
                 <li>
                   <h3 className="description">
-                  <strong>Corresponsabilidad y firme compromiso</strong> de
-                    acompañar a los profesionales sanitarios en este
-                    proceso de transformación digital bajo el
-                    paraguas de la humanización en los cuidados.
+                    <strong>Corresponsabilidad y firme compromiso</strong> de
+                    acompañar a los profesionales sanitarios en este proceso de
+                    transformación digital bajo el paraguas de la humanización
+                    en los cuidados.
                   </h3>
                 </li>
               </ul>
@@ -44,7 +44,7 @@ const PorqueHollister = (props) => {
           </div>
         </section>
       </div>
-      <FooterNavigation left={"/"} right={"/"} />
+      <FooterNavigation left={"/sabias-que"} right={"/collaborators"} />
     </Layout>
   );
 };
