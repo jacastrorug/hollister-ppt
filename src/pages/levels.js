@@ -6,7 +6,7 @@ import Img02 from "../images/levels/img02.png";
 import Img03 from "../images/levels/img03.png";
 import Img04 from "../images/levels/img04.png";
 import Header from "../images/levels/header.png";
-
+import FooterNavigation from "../components/FooterNavigation";
 
 const Levels = (props) => (
   <Layout>
@@ -41,6 +41,7 @@ const Levels = (props) => (
         </div>
       </div>
     </div>
+    <FooterNavigation left={"/collaborators"} right={"/basic-facetoface"} />
   </Layout>
 );
 

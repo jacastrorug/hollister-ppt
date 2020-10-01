@@ -76,7 +76,7 @@ const SabiasQue = (props) => {
           </div>
         </div>
       </div>
-      <FooterNavigation left={"/dos"} right={"/basic-facetoface"} />
+      <FooterNavigation left={"/dos"} right={"/collaborators"} />
     </Layout>
   );
 };
