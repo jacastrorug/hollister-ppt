@@ -18,7 +18,7 @@ const CambioUnoMismo = (props) => {
     const [hideVideo, setHideVideo] = useState(true);
 
     const handleClick = () => {
-        console.log(videoRef.current.pause())
+        videoRef.current.pause()
         setHideVideo(hideVideo => !hideVideo);
     }
     return (
