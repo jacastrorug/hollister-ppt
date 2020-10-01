@@ -1,0 +1,45 @@
+.finteractivos-container {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  padding-top: 7%;
+  padding-left: 9%;
+  max-width: 700px;
+
+  .tit1 {
+    font-size: 30px;
+    font-weight: 500;
+    font-weight: bold;
+    color: #4b4c4d;
+  }
+  .tit2 {
+    font-size: 35px;
+    font-weight: 500;
+    font-weight: bold;
+    color: #da1c40;
+  }
+  .title {
+    #tit3 {
+      font-size: 30px;
+      font-weight: 200;
+      color: #da1c40;
+    }
+    #tit4 {
+      size: 40px;
+      font-weight: 500;
+      color: #da1c40;
+    }
+  }
+  .content {
+    margin-top: 10%;
+    color: #4b4c4d;
+  }
+}
+.note {
+  margin-top: -200px;
+  margin-left: 50%;
+  max-width: 700px;
+  p {
+    color: white;
+  }
+}
