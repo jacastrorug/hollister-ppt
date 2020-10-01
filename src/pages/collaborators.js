@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import Img01 from "../images/collaborators/logo-ASD.png";
 import Img02 from "../images/collaborators/Logo-huci.png";
 import Img03 from "../images/collaborators/Logo-Salusplay.png";
+import FooterNavigation from "../components/FooterNavigation";
 
 const Collaborators = (props) => (
   <Layout>
@@ -39,6 +40,7 @@ const Collaborators = (props) => (
         </div>
       </div>
     </div>
+    <FooterNavigation left={"/sabias-que"} right={"/levels"} />
   </Layout>
 );
 

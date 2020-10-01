@@ -11,7 +11,7 @@ module.exports = {
       },
       {
         name: "Programas",
-        link: "/",
+        link: "/levels",
       },
       {
         name: "Documentación",

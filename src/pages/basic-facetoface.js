@@ -60,7 +60,7 @@ const BasicFaceToFace = (props) => (
         </div>
       </div>
     </div>
-    <FooterNavigation left={"/sabias-que"} right={"/basic-scholarships"} />
+    <FooterNavigation left={"/levels"} right={"/basic-scholarships"} />
   </Layout>
 );
 
