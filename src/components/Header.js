@@ -97,7 +97,7 @@ class Header extends React.Component {
         <header id="header">
           <div className={`navbar-menu ${this.state.mobileActiveClass}`}>
             <nav>
-              <ul style={{ display: "flex", flex: 1 }}>
+              <ul style={{ display: "flex", flex: 1 , marginTop: "5px",marginRight: "80px", fontSize: "25px"}}>
                 {menuLinks.map((link) =>
                   link.items ? (
                     <React.Fragment key={link.name}>

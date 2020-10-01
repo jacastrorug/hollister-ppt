@@ -1010,8 +1010,7 @@ div.container-collaborators {
   }
 }
 
-.content-title h3,
-h2 {
+.content-title h3, h2{
   line-height: 40px;
 }
 .texto-gris {
@@ -1045,6 +1044,7 @@ h2 {
 }
 .margen-cuadro-texto {
   margin-left: 10vw !important;
+  margin-top: 0px !important;
 }
 .btn-line {
   margin-top: -17px;
@@ -1173,3 +1173,14 @@ h2 {
   right: 34%;
   bottom: 11%;
 }
+
+.title-banner {
+  margin-top: 60px;
+}
+.margin-left-title h2{
+  font-size: 80px;
+  color: #fff;
+  margin-left: 25px !important;
+  margin-top: 60px;
+}
+
