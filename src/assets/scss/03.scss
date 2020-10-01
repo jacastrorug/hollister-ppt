@@ -7,6 +7,13 @@
   position: relative;
 }
 
+.video-container {
+  z-index: 100;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}
+
 .container-uno-mismo {
   margin-left: 10%;
   padding-top: 10%;
@@ -14,7 +21,7 @@
   flex-direction: column;
   box-sizing: border-box;
   .title {
-    line-height: 20px; /* 4px +12px + 4px */
+    line-height: 50px;
     .first {
       font-size: 30px;
       font-weight: 600;
@@ -26,12 +33,33 @@
   }
 
   .parrafo {
+    font-style: italic;
+    margin-top: 100px;
     line-height: 20px; /* 4px +12px + 4px */
     color: black;
     max-width: 420px;
+    strong {
+      font-weight: bold;
+      color: black;
+    }
+    span {
+      color: #da1c40;
+      font-size: 30px;
+      font-weight: 500;
+    }
   }
 
   .ver-video {
+    display: flex;
+    text-align: center;
     color: #da1c40;
+    .title-video {
+      font-size: 30px;
+      font-weight: 600;
+      font-family: sans-serif;
+      height: 100px;
+      line-height: 100px;
+      text-align: center;
+    }
   }
 }
