@@ -8,3 +8,6 @@ yarn.lock
 # Build directory
 /public
 test.html
+# ignore node_modules symlink
+node_modules
+node_modules.nosync
