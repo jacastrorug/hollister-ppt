@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 
 const FooterNavigation = (props) => {
-  const { left, right } = props;
+  const { left, right, leftLight, rightLight, backgroundDark } = props;
   return (
     <footer id="footer" className="footer-navigation">
       <div>

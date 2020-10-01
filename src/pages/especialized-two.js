@@ -34,7 +34,7 @@ const EspecializedTwo = (props) => (
             <img src={Ilustration} />
           </div>
         </div>
-        <div class="row">
+        <div className="row">
           <div className="container-imgs-especialized-02 col-12 containers-cards">
             <div>
               <img src={Cuadro1} />
