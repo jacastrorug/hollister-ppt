@@ -18,17 +18,16 @@ const BasicFaceToFace = (props) => (
       <div className='row'>
         <div className="backfgraund-withe col-8 col-12-medium">
           <div className="main-basic">
-            <img src={SecctionImg} />
+            <img src={SecctionImg} href={"https://www.salusplay.com/cursos"}/>
           </div>
           <div className="online-becas">
             <span>Online</span>
             <div>Becas en</div>
             <img src={SalusPlay}/>
             <div className='square-becas'></div>
-            <div className='more-info'>+ info</div>
           </div>
           <div className="border-title-bottom"></div>
-
+          <button className="btn-info-dos"><i class="fa fa-plus"></i>&nbsp;info</button>
           <div className="wrapper">
             <div className="one">
               <span className="title-card">01</span>

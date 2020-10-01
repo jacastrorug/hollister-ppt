@@ -7,18 +7,18 @@ import "../assets/scss/02.scss";
 const Humanizacion = () => {
   return (
     <>
-      <section id="banner-humanizacion">
+      <section id="banner-humanizacion" className="humanizacion-class">
         <div className="row">
           <div className="col-1"></div>
           <div className="col-7 container-humanizacion">
             <div className="content-title">
               <h3 className="texto-gris">Tu formación nos importa</h3>
-              <h2>La Humanización y la Salud Digital</h2>
+              <h2 style={{color: "#DA1C40"}}>La Humanización y la Salud Digital</h2>
               <h2 className="subtitle texto-gris">Porque tu paciente es lo primero</h2>
             </div>
-            <div className="border-section">
+            <div className="border-section" style={{borderTop: "35px"}}>
               <div className="content-border">
-                <div className="content-quote">
+                <div className="content-quote" style={{borderTop: "50px"}}>
                   <h4 className="texto-gris">
                     <i className="fas fa-quote-left"/>
                     ¿Qué es la salud digital y por qué es importante para mi?
@@ -31,7 +31,7 @@ const Humanizacion = () => {
                   </h4>
                 </div>
                 <br></br>
-                <h4 className="title-name texto-gris">José María Cepeda</h4>
+                <h4 className="title-name texto-gris" style={{marginBottom: "0px !important"}}>José María Cepeda</h4>
                 <h4 className="texto-gris">
                   Enfermero de Emergencias y Creador de Contenidos sobre e-salud
                 </h4>
@@ -39,7 +39,7 @@ const Humanizacion = () => {
             </div>
           </div>
           <div className="col-4">
-            <img src={DP02_foto} className="image-two" />
+            <img src={DP02_foto} className="image-two" style={{marginTop: "80px"}}/>
           </div>
         </div>
 
