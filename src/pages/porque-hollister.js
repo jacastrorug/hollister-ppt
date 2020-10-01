@@ -15,19 +15,31 @@ const PorqueHollister = (props) => {
           content="Por que Hollister con la Salud Digital"
         />
       </Helmet>
-      <div className="basic-level">
+      <div>
         <section id="banner-porque-hollister">
-          <div className="texto-nivel-avanzado">
-            <div className="logo-salus">
+          <div className="porque-container">
+            <div className="title">
               <h2 className="title-section">
-                Por qué Hollister con la Salud Digital
+                Por qué Hollister <br></br>con la Salud Digital
               </h2>
             </div>
-            <div className="columnas-una">
-              <h3 className="description">
-                Nuestra misión: hacer la vida del paciente más digna y
-                gratificante
-              </h3>
+            <div className="list">
+              <ul>
+                <li>
+                  <h3 className="description">
+                    <strong>Nuestra misión: </strong>hacer la vida del paciente más digna y
+                    gratificante
+                  </h3>
+                </li>
+                <li>
+                  <h3 className="description">
+                  <strong>Corresponsabilidad y firme compromiso</strong> de
+                    acompañar a los profesionales sanitarios en este
+                    proceso de transformación digital bajo el
+                    paraguas de la humanización en los cuidados.
+                  </h3>
+                </li>
+              </ul>
             </div>
           </div>
         </section>

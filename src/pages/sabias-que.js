@@ -76,7 +76,7 @@ const SabiasQue = (props) => {
           </div>
         </div>
       </div>
-      <FooterNavigation left={"/cambio-uno-mismo"} right={"/basic-facetoface"} />
+      <FooterNavigation left={"/cambio-uno-mismo"} right={"/porque-hollister"} />
     </Layout>
   );
 };
