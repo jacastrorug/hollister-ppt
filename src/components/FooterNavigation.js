@@ -7,12 +7,20 @@ const FooterNavigation = (props) => {
     <footer id="footer" className="footer-navigation">
       <div>
         {left && (
-          <Link to={left} className="link-navigation left-arrow">
+          <Link
+            to={left}
+            className={`link-navigation left-arrow ${leftLight ? "light" : ""}`}
+          >
             <i className="fas fa-arrow-left fa-2x" />
           </Link>
         )}
         {right && (
-          <Link to={right} className="link-navigation right-arrow">
+          <Link
+            to={right}
+            className={`link-navigation right-arrow ${
+              rightLight ? "light" : ""
+            }`}
+          >
             <i className="fas fa-arrow-right fa-2x" />
           </Link>
         )}
